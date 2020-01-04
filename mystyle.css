@@ -1,0 +1,107 @@
+hr.h1{
+    border-top: 5px solid black;
+}
+
+.header {
+    font-size: 70px;
+    background-color: #beebe9;
+    text-align: center;
+    font-family: Arial;
+    border-radius: 10px;
+    border-spacing:10px;
+    border-style: ridge;
+}
+.addcontact{
+    font-size:40px;
+    color:#f0e3ff;
+    font-family: Calibri;
+    background-color: #015668;
+    padding-left: 120px;
+    padding-bottom: 7px;
+    padding-top: 7px;
+    bor
+
+}
+.contacts{
+     font-size:40px;
+     color:#f0e3ff;
+     font-family: Calibri;
+     background-color: #015668;
+     padding-left: 120px;
+     padding-bottom: 7px;
+     padding-top: 7px;
+
+
+ }
+.bg1{
+    font-size: 27px;
+    background-color: #f1f1f6;
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    font-family: "Yu Gothic UI";
+
+}
+.bg2{
+    background-color: #f1f1f6;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+
+}
+input[type=text] {
+    font-size: 20px;
+    box-sizing: border-box;
+    width: 18%;
+    padding: 10px 17px;
+    margin: 8px 0;
+    color: #015668;
+}
+input[type=number]{
+    font-size: 20px;
+    box-sizing: border-box;
+    width: 18%;
+    padding: 10px 17px;
+    margin: 8px 0;
+    color: #015668;
+
+
+}
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+}
+input[type=button]
+{
+    cursor: pointer;
+    color: aqua;
+    font-size: 24px;
+    width:10%;
+    border-radius: 8px;
+    border-color: #4a47a3;
+    height: 53px;
+    background-color:#916dd5;
+}
+th{
+    background-color: cadetblue;
+    line-height: 25px;
+    align-content: center;
+    color: rgb(56, 56, 56);
+    font-size: 30px;
+    font-family: "MS UI Gothic";
+    border: 1px solid rgb(190,190,190);
+    padding: 10px 150px;
+}
+table{
+    margin-left:auto;
+    margin-right:auto;
+}
+tr{
+    background-color: #f4f4f4;
+    align-content: center;
+    text-align: center;
+    font-size: 20px;
+    line-height: 40px;
+
+
+}
