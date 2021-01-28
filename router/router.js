@@ -2,6 +2,9 @@ const path = require('path');
 const express = require('express')
 const app = express()
 
+
+const port = process.env.PORT || 2000
+
 app.use(express.static(path.join(__dirname, '../')));
 
 app.get('',(req,res)=>{
@@ -9,6 +12,6 @@ app.get('',(req,res)=>{
 })
 
 app.listen(2000, ()=>{
-    console.log('server is up on 2000')
+    console.log('server is up on ',port)
     console.log(__dirname)
 })

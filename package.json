@@ -2,9 +2,10 @@
   "name": "phonebook",
   "version": "1.0.0",
   "description": "",
-  "main": "/router/router.js",
+  "main": "jsfile.js",
   "scripts": {
-    "start": "node router/router.js"
+    "start": "node router/router.js",
+    "dev": "nodemon router/router.js"
   },
   "repository": {
     "type": "git",
@@ -16,9 +17,5 @@
   "bugs": {
     "url": "https://github.com/amitsahuad/phonebook/issues"
   },
-  "homepage": "https://github.com/amitsahuad/phonebook#readme",
-  "dependencies": {
-    "express": "^4.17.1",
-    "path": "^0.12.7"
-  }
+  "homepage": "https://github.com/amitsahuad/phonebook#readme"
 }
